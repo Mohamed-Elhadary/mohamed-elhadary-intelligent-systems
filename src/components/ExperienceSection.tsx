@@ -5,63 +5,76 @@ const experiences = [
   {
     company: "Central Bank of Egypt",
     role: "Data Scientist — Evolve Graduate Program",
-    period: "Feb 2026 – Present",
+    period: "Feb 2026 – Aug 2026",
     bullets: [
-      "AI-powered regulatory intelligence assistant using RAG architecture",
-      "Compliance across Basel, IFRS, AML, and KYC frameworks",
-      "NLP techniques for institutional regulatory alignment",
+      "Built Saeed/Maat, the Central Bank's first internal AI-powered regulatory chatbot — front end, back end, APIs, and retrieval pipeline — using Streamlit, FastAPI, RAG, and Python",
+      "Deployed across Audit, Customer Protection, and Competition Protection departments",
+      "Architected isolated per-department mini-RAG pipelines for real-time regulatory lookup across Basel, AML/KYC, and CBE circulars",
+      "Designed a legal translation pipeline evaluating seven approaches, landing on a pipeline with 8x runtime improvement at $0.06/document",
+      "Built a dual evaluation framework: reference-based (BLEU, chrF++, BERTScore up to 0.93) and reference-free GPT-4o-as-judge scoring",
+      "Scaled translation coverage from German-only to seven languages after strong initial results",
     ],
   },
   {
     company: "Awe Research",
     role: "Digital Analyst",
-    period: "Feb 2026 – Present",
+    period: "Feb 2026 – May 2026",
     bullets: [
-      "Digital analytics & market research across key MENA markets",
-      "Built Power BI dashboards tracking consumer engagement",
+      "Delivered digital analytics and market research insights for regional expansion across key MENA markets",
+      "Built data visualization dashboards tracking consumer engagement and digital performance metrics across multiple markets",
+      "Synthesized multi-market data to identify growth opportunities and optimize digital strategies for diverse regional audiences",
     ],
   },
   {
     company: "Konecta",
-    role: "Data Analyst Trainee & Team Leader",
+    role: "Data Analyst Trainee — Team Leader",
     period: "May 2025",
     bullets: [
-      "Led team to 3rd place — Northwind dataset analysis",
-      "Comprehensive Power BI dashboard for sales optimization",
+      "Led team to 3rd place in graduation project analyzing the Northwind dataset",
+      "Built a comprehensive Power BI dashboard for sales optimization and revenue trends",
     ],
   },
   {
-    company: "AIESEC",
+    company: "AIESEC — Incoming Global Talent",
     role: "Product Manager & Team Leader",
     period: "2024 – 2025",
     bullets: [
-      "Managed product roadmap for global talent program",
-      "Awarded Best AIESECer at IGNITE Conference",
+      "Managed product roadmap and led cross-functional team operations for a global talent acquisition program",
+      "Conducted stakeholder interviews with early-stage startups to open internship and full-time opportunities",
+      "Awarded Best AIESECer at IGNITE conference and Best Member of the IGT function",
     ],
   },
   {
     company: "STEM Entrepreneurship Center",
-    role: "Data Analyst & Product Manager",
+    role: "Data Analyst Intern & Product Manager",
     period: "April 2025",
-    bullets: ["Data-driven product solutions for Saudi advertising company"],
+    bullets: [
+      "Developed data-driven product solutions for a Saudi Arabian advertising company",
+    ],
   },
   {
     company: "German University in Cairo",
     role: "Junior Teaching Assistant",
     period: "2024 – 2025",
-    bullets: ["Mentored students in CS projects and technical sessions"],
+    bullets: [
+      "Mentored students in computer science projects and facilitated technical learning sessions",
+    ],
   },
   {
     company: "El Sewedy Industries",
     role: "Engineering Intern",
     period: "Aug 2024",
-    bullets: ["Industrial engineering processes & project management"],
+    bullets: [
+      "Gained hands-on experience in industrial engineering processes and project management workflows",
+    ],
   },
   {
-    company: "ACT",
-    role: "Full Stack Dev Intern",
+    company: "ACT (Advanced Computer Technology)",
+    role: "Full Stack Development Intern",
     period: "July 2024",
-    bullets: ["Full-stack development with international teams"],
+    bullets: [
+      "Developed full-stack applications and collaborated with international development teams",
+    ],
   },
 ];
 
