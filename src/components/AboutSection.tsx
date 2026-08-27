@@ -3,7 +3,7 @@ import AnimatedSection from "./AnimatedSection";
 import { GraduationCap, Brain, Briefcase } from "lucide-react";
 
 const highlights = [
-  { icon: GraduationCap, label: "BS CS & Engineering", desc: "German University in Cairo — Very Good (A+ Thesis)" },
+  { icon: GraduationCap, label: "BS CS & Engineering", desc: "German University in Cairo — 2020-2025, Very Good (A+ Thesis)" },
   { icon: Brain, label: "AI & Machine Learning", desc: "RAG, NLP, Deep Learning, LangChain" },
   { icon: Briefcase, label: "Product Thinking", desc: "Agile, Stakeholder Management, Strategy" },
 ];
