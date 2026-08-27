@@ -3,39 +3,44 @@ import AnimatedSection from "./AnimatedSection";
 
 const projects = [
   {
-    title: "AI Regulatory Intelligence Assistant",
-    tech: "Python, RAG, NLP, LangChain",
-    desc: "Enterprise AI for conversational access to compliance frameworks at CBE.",
+    title: "Regulatory RAG Architecture — Central Bank of Egypt",
+    tech: "Python, LangChain, Vector Databases, FastAPI",
+    desc: "Designed the retrieval-layer architecture for CBE's regulatory assistant: department-isolated vector stores, legal-document chunking, and embedding-model benchmarking. Built the evaluation harness used to validate translation quality across seven languages.",
   },
   {
-    title: "Sentiment Analysis in Tourism",
+    title: "Sentiment Analysis in Tourism Industry",
     tech: "Python, NLP, Deep Learning",
-    desc: "Bachelor Thesis — 7 ML/DL models for customer sentiment analysis. Grade: A+",
+    desc: "Bachelor Thesis — developed and evaluated seven ML/DL models for customer sentiment analysis. Grade: A+",
+  },
+  {
+    title: "Project Portfolio Management Dashboard",
+    tech: "Power BI",
+    desc: "Interactive dashboard tracking project KPIs (PV, EV, AC, variances) enabling data-driven portfolio management and resource allocation.",
+  },
+  {
+    title: "Business Performance E-Commerce Dashboard",
+    tech: "Power BI",
+    desc: "Stride Group — integrated sales, marketing & finance dashboard using KPIs (ROI, CAC, CLV) to optimize business performance.",
+  },
+  {
+    title: "Competitive Intelligence — Telecom Sector",
+    tech: "Excel",
+    desc: "Analyzed Egyptian telecom market across 4 operators and 5-7 platforms, building a 180+ record dataset with executive dashboard.",
   },
   {
     title: "Gold Price Prediction",
     tech: "Python, XGBoost, NLP",
-    desc: "Beltone AI Hackathon — ML model predicting daily gold prices using multi-source data.",
-  },
-  {
-    title: "E-Commerce Performance Dashboard",
-    tech: "Power BI",
-    desc: "Stride Group — Integrated sales, marketing & finance dashboard (ROI, CAC, CLV).",
-  },
-  {
-    title: "Telecom Competitive Intelligence",
-    tech: "Excel",
-    desc: "Analyzed 4 operators across 5-7 platforms, 180+ record dataset with executive dashboard.",
+    desc: "Beltone AI Hackathon at AUC — ML model predicting daily gold prices using multi-source economic data and time-series analysis.",
   },
   {
     title: "Spotify Music Classification",
     tech: "Python, Scikit-learn, PCA, SVM",
-    desc: "Audio feature classification with Logistic Regression, Random Forest, and SVM.",
+    desc: "Audio feature classification with Logistic Regression, Random Forest, SVM, and PCA-based dimensionality reduction.",
   },
   {
     title: "Salary Prediction Model",
     tech: "Python, Pandas, Scikit-learn",
-    desc: "Regression model predicting salaries for data professionals.",
+    desc: "Regression model predicting salaries for data professionals through data analysis and feature engineering.",
   },
   {
     title: "Database Management System",
