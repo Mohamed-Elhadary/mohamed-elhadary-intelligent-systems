@@ -13,13 +13,13 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-       <BrowserRouter basename="/mohamed-elhadary-intelligent-systems/">
+      <BrowserRouter basename="/mohamed-elhadary-intelligent-systems/">
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <BrowserRouter basename="/mohamed-elhadary-intelligent-systems/">
+      </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
 );
